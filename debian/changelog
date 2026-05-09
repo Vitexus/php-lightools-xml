@@ -1,0 +1,5 @@
+php-lightools-xml (3.0.0) trixie; urgency=low
+
+  * Initial Debian packaging
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Fri, 09 May 2025 03:21:56 +0000

@@ -1,5 +1,6 @@
 {
     "name": "lightools/xml",
+    "type": "library",
     "description": "Simple and safe parsing of XML and HTML sources.",
     "license": ["MIT"],
     "require": {

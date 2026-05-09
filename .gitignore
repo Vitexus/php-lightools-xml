@@ -3,3 +3,15 @@
 !/cache/.gitkeep
 /.idea
 /tests/output
+
+# Debian build artifacts
+debian/.debhelper/
+debian/php-lightools-xml/
+debian/debhelper-build-stamp
+debian/files
+*.deb
+*.dsc
+*.tar.xz
+*.buildinfo
+*.changes
+*.build

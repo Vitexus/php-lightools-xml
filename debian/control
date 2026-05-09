@@ -1,0 +1,17 @@
+Source: php-lightools-xml
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13), jq
+Standards-Version: 4.6.2
+Homepage: https://github.com/Vitexus/php-lightools-xml
+Vcs-Git: https://github.com/Vitexus/php-lightools-xml.git
+Rules-Requires-Root: no
+
+Package: php-lightools-xml
+Architecture: all
+Depends: ${misc:Depends}, php-cli | php, php-xml, composer
+Description: Simple and safe parsing of XML and HTML sources
+ This library provides a simple interface for loading XML or HTML
+ strings into a DomDocument object. It prevents known vulnerabilities
+ and allows handling LibXML errors by catching XmlException.
